@@ -16,7 +16,7 @@ int main()
                 window.close();
         }
 
-        window.clear(); holi
+        window.clear();
         window.draw(shape);
         window.display();
     }

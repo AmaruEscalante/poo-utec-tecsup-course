@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/amaru/Documents/CLionProjects/game_new/Automovil.cpp" "/home/amaru/Documents/CLionProjects/game_new/cmake-build-debug/CMakeFiles/game_new.dir/Automovil.cpp.o"
-  "/home/amaru/Documents/CLionProjects/game_new/main.cpp" "/home/amaru/Documents/CLionProjects/game_new/cmake-build-debug/CMakeFiles/game_new.dir/main.cpp.o"
+  "/home/amaru/CLionProjects/poo-utec-tecsup-course/Automovil.cpp" "/home/amaru/CLionProjects/poo-utec-tecsup-course/cmake-build-debug/CMakeFiles/game_new.dir/Automovil.cpp.o"
+  "/home/amaru/CLionProjects/poo-utec-tecsup-course/main.cpp" "/home/amaru/CLionProjects/poo-utec-tecsup-course/cmake-build-debug/CMakeFiles/game_new.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
