@@ -11,8 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9eef4b7-8a2f-44f9-b684-82e260394020" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    <list default="true" id="e9eef4b7-8a2f-44f9-b684-82e260394020" name="Default Changelist" comment="added atributes and functions to the class Automovil">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automovil.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Automovil.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automovil.h" beforeDir="false" afterPath="$PROJECT_DIR$/Automovil.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +41,11 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="AmaruEscalante &lt;sebastian.escalante@utec.edu.pe&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -52,6 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -71,6 +79,9 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -93,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569538523220</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="error correction in main.cpp">
+      <created>1569804286322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569804286322</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +154,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="error correction in main.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="error correction in main.cpp" />
+    <MESSAGE value="added atributes and functions to the class Automovil" />
+    <option name="LAST_COMMIT_MESSAGE" value="added atributes and functions to the class Automovil" />
   </component>
 </project>
