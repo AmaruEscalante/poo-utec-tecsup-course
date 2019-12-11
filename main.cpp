@@ -7,7 +7,7 @@ int main()
     sf::CircleShape shape(100.f);
     shape.setFillColor(sf::Color::Green);
 // Addedd a comennt, this is only for test purposes only
-    while (window.isOpen())jjj
+    while (window.isOpen())
     {
         sf::Event event;
         while (window.pollEvent(event))
