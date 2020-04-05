@@ -43,10 +43,10 @@ RM = /home/amaru/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amaru/CLionProjects/poo-utec-tecsup-course
+CMAKE_SOURCE_DIR = /home/amaru/CLionProjects/pinpong
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amaru/CLionProjects/poo-utec-tecsup-course/cmake-build-debug
+CMAKE_BINARY_DIR = /home/amaru/CLionProjects/pinpong/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/game_new.dir/depend.make
@@ -59,46 +59,61 @@ include CMakeFiles/game_new.dir/flags.make
 
 CMakeFiles/game_new.dir/main.cpp.o: CMakeFiles/game_new.dir/flags.make
 CMakeFiles/game_new.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/CLionProjects/poo-utec-tecsup-course/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game_new.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_new.dir/main.cpp.o -c /home/amaru/CLionProjects/poo-utec-tecsup-course/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/CLionProjects/pinpong/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game_new.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_new.dir/main.cpp.o -c /home/amaru/CLionProjects/pinpong/main.cpp
 
 CMakeFiles/game_new.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_new.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amaru/CLionProjects/poo-utec-tecsup-course/main.cpp > CMakeFiles/game_new.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amaru/CLionProjects/pinpong/main.cpp > CMakeFiles/game_new.dir/main.cpp.i
 
 CMakeFiles/game_new.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_new.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amaru/CLionProjects/poo-utec-tecsup-course/main.cpp -o CMakeFiles/game_new.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amaru/CLionProjects/pinpong/main.cpp -o CMakeFiles/game_new.dir/main.cpp.s
 
 CMakeFiles/game_new.dir/Automovil.cpp.o: CMakeFiles/game_new.dir/flags.make
 CMakeFiles/game_new.dir/Automovil.cpp.o: ../Automovil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/CLionProjects/poo-utec-tecsup-course/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game_new.dir/Automovil.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_new.dir/Automovil.cpp.o -c /home/amaru/CLionProjects/poo-utec-tecsup-course/Automovil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/CLionProjects/pinpong/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game_new.dir/Automovil.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_new.dir/Automovil.cpp.o -c /home/amaru/CLionProjects/pinpong/Automovil.cpp
 
 CMakeFiles/game_new.dir/Automovil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_new.dir/Automovil.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amaru/CLionProjects/poo-utec-tecsup-course/Automovil.cpp > CMakeFiles/game_new.dir/Automovil.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amaru/CLionProjects/pinpong/Automovil.cpp > CMakeFiles/game_new.dir/Automovil.cpp.i
 
 CMakeFiles/game_new.dir/Automovil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_new.dir/Automovil.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amaru/CLionProjects/poo-utec-tecsup-course/Automovil.cpp -o CMakeFiles/game_new.dir/Automovil.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amaru/CLionProjects/pinpong/Automovil.cpp -o CMakeFiles/game_new.dir/Automovil.cpp.s
+
+CMakeFiles/game_new.dir/ball.cpp.o: CMakeFiles/game_new.dir/flags.make
+CMakeFiles/game_new.dir/ball.cpp.o: ../ball.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/CLionProjects/pinpong/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game_new.dir/ball.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_new.dir/ball.cpp.o -c /home/amaru/CLionProjects/pinpong/ball.cpp
+
+CMakeFiles/game_new.dir/ball.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_new.dir/ball.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amaru/CLionProjects/pinpong/ball.cpp > CMakeFiles/game_new.dir/ball.cpp.i
+
+CMakeFiles/game_new.dir/ball.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_new.dir/ball.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amaru/CLionProjects/pinpong/ball.cpp -o CMakeFiles/game_new.dir/ball.cpp.s
 
 # Object files for target game_new
 game_new_OBJECTS = \
 "CMakeFiles/game_new.dir/main.cpp.o" \
-"CMakeFiles/game_new.dir/Automovil.cpp.o"
+"CMakeFiles/game_new.dir/Automovil.cpp.o" \
+"CMakeFiles/game_new.dir/ball.cpp.o"
 
 # External object files for target game_new
 game_new_EXTERNAL_OBJECTS =
 
 game_new: CMakeFiles/game_new.dir/main.cpp.o
 game_new: CMakeFiles/game_new.dir/Automovil.cpp.o
+game_new: CMakeFiles/game_new.dir/ball.cpp.o
 game_new: CMakeFiles/game_new.dir/build.make
 game_new: /home/amaru/DevLibraries/SFML-2.5.1/lib/libsfml-graphics.so.2.5.1
 game_new: /home/amaru/DevLibraries/SFML-2.5.1/lib/libsfml-window.so.2.5.1
 game_new: /home/amaru/DevLibraries/SFML-2.5.1/lib/libsfml-system.so.2.5.1
 game_new: CMakeFiles/game_new.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amaru/CLionProjects/poo-utec-tecsup-course/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable game_new"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amaru/CLionProjects/pinpong/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable game_new"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game_new.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -111,6 +126,6 @@ CMakeFiles/game_new.dir/clean:
 .PHONY : CMakeFiles/game_new.dir/clean
 
 CMakeFiles/game_new.dir/depend:
-	cd /home/amaru/CLionProjects/poo-utec-tecsup-course/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amaru/CLionProjects/poo-utec-tecsup-course /home/amaru/CLionProjects/poo-utec-tecsup-course /home/amaru/CLionProjects/poo-utec-tecsup-course/cmake-build-debug /home/amaru/CLionProjects/poo-utec-tecsup-course/cmake-build-debug /home/amaru/CLionProjects/poo-utec-tecsup-course/cmake-build-debug/CMakeFiles/game_new.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amaru/CLionProjects/pinpong/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amaru/CLionProjects/pinpong /home/amaru/CLionProjects/pinpong /home/amaru/CLionProjects/pinpong/cmake-build-debug /home/amaru/CLionProjects/pinpong/cmake-build-debug /home/amaru/CLionProjects/pinpong/cmake-build-debug/CMakeFiles/game_new.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/game_new.dir/depend
 

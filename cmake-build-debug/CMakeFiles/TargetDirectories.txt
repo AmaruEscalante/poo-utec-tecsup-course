@@ -1,3 +1,3 @@
-/home/amaru/CLionProjects/poo-utec-tecsup-course/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/amaru/CLionProjects/poo-utec-tecsup-course/cmake-build-debug/CMakeFiles/game_new.dir
-/home/amaru/CLionProjects/poo-utec-tecsup-course/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/amaru/CLionProjects/pinpong/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/amaru/CLionProjects/pinpong/cmake-build-debug/CMakeFiles/game_new.dir
+/home/amaru/CLionProjects/pinpong/cmake-build-debug/CMakeFiles/edit_cache.dir
