@@ -15,7 +15,7 @@ int main()
             if (event.type == sf::Event::Closed)
                 window.close();
         }
-
+gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
         window.clear();
         window.draw(shape);
         window.display();
