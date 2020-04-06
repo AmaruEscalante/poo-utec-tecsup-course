@@ -25,24 +25,21 @@ void Automovil::direction_p(int valor) {
 }
 
 std::string Automovil::get_owner() {
-    return std::__cxx11::string();
+    return owner;
 }
 
 std::string Automovil::get_model() {
-    return std::__cxx11::string();
+    return model;
 }
 
 std::string Automovil::get_plate() {
-    return std::__cxx11::string();
+    return plate;
 }
 
-int Automovil::get_velocity() {
-    return 0;
+int Automovil::get_velocity_x() {
+    return vx;
 }
 
-Automovil::Automovil(int p_x, int p_y, int p_height, int p_width, char p_color, std::string p_model,
-                     std::string p_owner, int p_vx, int p_vy, int p_direction) {
-
+int Automovil::get_velocity_y() {
+    return vy;
 }
-
-
