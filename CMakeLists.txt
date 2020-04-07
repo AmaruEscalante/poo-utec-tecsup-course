@@ -4,7 +4,7 @@ project(game_new)
 # Archivos del Projecto
 set(PROJECT_SOURCE
         main.cpp
-        Automovil.cpp Automovil.h person.cpp person.h)
+        Automovil.cpp Automovil.h person.cpp person.h wheel.cpp wheel.h)
 
 # C++ Standard se sugiere 11 o 14
 set(CMAKE_CXX_STANDARD 14)

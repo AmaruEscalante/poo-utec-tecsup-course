@@ -25,7 +25,10 @@ void Automovil::direction_p(int valor) {
 }
 
 std::string Automovil::get_owner() {
-    return owner;
+    if (owner != nullptr)
+        return owner->get_name();
+    else
+        return "Does not have owner";
 }
 
 std::string Automovil::get_model() {

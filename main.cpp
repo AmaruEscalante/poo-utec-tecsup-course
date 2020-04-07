@@ -27,14 +27,16 @@ int main()
 }*/
 
 int main(){
+    int arr[5] = {1,2,4,8,5};
     Automovil toyota {0, 0, 6, 3, 'B',
-                      "yaris", "Jose ramos",
+                      "yaris", nullptr,
                       "ABB201", 12, 0, 1};
 
     std::cout << toyota.get_model() << std::endl;
-    std::cout << toyota.get_owner() << std::endl;
     std::cout << toyota.get_plate() << std::endl;
     std::cout << toyota.get_velocity_x() << std::endl;
     std::cout << toyota.get_velocity_y() << std::endl;
+    std::cout << toyota.get_owner() << std::endl;
     return 0;
+    std::cout << arr << std::endl;
 }
