@@ -48,10 +48,10 @@ RM = /home/amaru/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amaru/CLionProjects/pinpong
+CMAKE_SOURCE_DIR = /home/amaru/CLionProjects/game_new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amaru/CLionProjects/pinpong/cmake-build-debug
+CMAKE_BINARY_DIR = /home/amaru/CLionProjects/game_new/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amaru/CLionProjects/pinpong/cmake-build-debug/CMakeFiles /home/amaru/CLionProjects/pinpong/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amaru/CLionProjects/game_new/cmake-build-debug/CMakeFiles /home/amaru/CLionProjects/game_new/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amaru/CLionProjects/pinpong/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amaru/CLionProjects/game_new/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,33 +150,6 @@ Automovil.cpp.s:
 	$(MAKE) -f CMakeFiles/game_new.dir/build.make CMakeFiles/game_new.dir/Automovil.cpp.s
 .PHONY : Automovil.cpp.s
 
-ball.o: ball.cpp.o
-
-.PHONY : ball.o
-
-# target to build an object file
-ball.cpp.o:
-	$(MAKE) -f CMakeFiles/game_new.dir/build.make CMakeFiles/game_new.dir/ball.cpp.o
-.PHONY : ball.cpp.o
-
-ball.i: ball.cpp.i
-
-.PHONY : ball.i
-
-# target to preprocess a source file
-ball.cpp.i:
-	$(MAKE) -f CMakeFiles/game_new.dir/build.make CMakeFiles/game_new.dir/ball.cpp.i
-.PHONY : ball.cpp.i
-
-ball.s: ball.cpp.s
-
-.PHONY : ball.s
-
-# target to generate assembly for a file
-ball.cpp.s:
-	$(MAKE) -f CMakeFiles/game_new.dir/build.make CMakeFiles/game_new.dir/ball.cpp.s
-.PHONY : ball.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -204,6 +177,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/game_new.dir/build.make CMakeFiles/game_new.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+person.o: person.cpp.o
+
+.PHONY : person.o
+
+# target to build an object file
+person.cpp.o:
+	$(MAKE) -f CMakeFiles/game_new.dir/build.make CMakeFiles/game_new.dir/person.cpp.o
+.PHONY : person.cpp.o
+
+person.i: person.cpp.i
+
+.PHONY : person.i
+
+# target to preprocess a source file
+person.cpp.i:
+	$(MAKE) -f CMakeFiles/game_new.dir/build.make CMakeFiles/game_new.dir/person.cpp.i
+.PHONY : person.cpp.i
+
+person.s: person.cpp.s
+
+.PHONY : person.s
+
+# target to generate assembly for a file
+person.cpp.s:
+	$(MAKE) -f CMakeFiles/game_new.dir/build.make CMakeFiles/game_new.dir/person.cpp.s
+.PHONY : person.cpp.s
+
+wheel.o: wheel.cpp.o
+
+.PHONY : wheel.o
+
+# target to build an object file
+wheel.cpp.o:
+	$(MAKE) -f CMakeFiles/game_new.dir/build.make CMakeFiles/game_new.dir/wheel.cpp.o
+.PHONY : wheel.cpp.o
+
+wheel.i: wheel.cpp.i
+
+.PHONY : wheel.i
+
+# target to preprocess a source file
+wheel.cpp.i:
+	$(MAKE) -f CMakeFiles/game_new.dir/build.make CMakeFiles/game_new.dir/wheel.cpp.i
+.PHONY : wheel.cpp.i
+
+wheel.s: wheel.cpp.s
+
+.PHONY : wheel.s
+
+# target to generate assembly for a file
+wheel.cpp.s:
+	$(MAKE) -f CMakeFiles/game_new.dir/build.make CMakeFiles/game_new.dir/wheel.cpp.s
+.PHONY : wheel.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +243,15 @@ help:
 	@echo "... Automovil.o"
 	@echo "... Automovil.i"
 	@echo "... Automovil.s"
-	@echo "... ball.o"
-	@echo "... ball.i"
-	@echo "... ball.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... person.o"
+	@echo "... person.i"
+	@echo "... person.s"
+	@echo "... wheel.o"
+	@echo "... wheel.i"
+	@echo "... wheel.s"
 .PHONY : help
 
 
