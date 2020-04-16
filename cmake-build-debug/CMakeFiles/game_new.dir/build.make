@@ -57,22 +57,9 @@ include CMakeFiles/game_new.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/game_new.dir/flags.make
 
-CMakeFiles/game_new.dir/main.cpp.o: CMakeFiles/game_new.dir/flags.make
-CMakeFiles/game_new.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/CLionProjects/game_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game_new.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_new.dir/main.cpp.o -c /home/amaru/CLionProjects/game_new/main.cpp
-
-CMakeFiles/game_new.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_new.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amaru/CLionProjects/game_new/main.cpp > CMakeFiles/game_new.dir/main.cpp.i
-
-CMakeFiles/game_new.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_new.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amaru/CLionProjects/game_new/main.cpp -o CMakeFiles/game_new.dir/main.cpp.s
-
 CMakeFiles/game_new.dir/Automovil.cpp.o: CMakeFiles/game_new.dir/flags.make
 CMakeFiles/game_new.dir/Automovil.cpp.o: ../Automovil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/CLionProjects/game_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game_new.dir/Automovil.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/CLionProjects/game_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game_new.dir/Automovil.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_new.dir/Automovil.cpp.o -c /home/amaru/CLionProjects/game_new/Automovil.cpp
 
 CMakeFiles/game_new.dir/Automovil.cpp.i: cmake_force
@@ -82,6 +69,19 @@ CMakeFiles/game_new.dir/Automovil.cpp.i: cmake_force
 CMakeFiles/game_new.dir/Automovil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_new.dir/Automovil.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amaru/CLionProjects/game_new/Automovil.cpp -o CMakeFiles/game_new.dir/Automovil.cpp.s
+
+CMakeFiles/game_new.dir/main.cpp.o: CMakeFiles/game_new.dir/flags.make
+CMakeFiles/game_new.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amaru/CLionProjects/game_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game_new.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_new.dir/main.cpp.o -c /home/amaru/CLionProjects/game_new/main.cpp
+
+CMakeFiles/game_new.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_new.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amaru/CLionProjects/game_new/main.cpp > CMakeFiles/game_new.dir/main.cpp.i
+
+CMakeFiles/game_new.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_new.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amaru/CLionProjects/game_new/main.cpp -o CMakeFiles/game_new.dir/main.cpp.s
 
 CMakeFiles/game_new.dir/person.cpp.o: CMakeFiles/game_new.dir/flags.make
 CMakeFiles/game_new.dir/person.cpp.o: ../person.cpp
@@ -111,22 +111,19 @@ CMakeFiles/game_new.dir/wheel.cpp.s: cmake_force
 
 # Object files for target game_new
 game_new_OBJECTS = \
-"CMakeFiles/game_new.dir/main.cpp.o" \
 "CMakeFiles/game_new.dir/Automovil.cpp.o" \
+"CMakeFiles/game_new.dir/main.cpp.o" \
 "CMakeFiles/game_new.dir/person.cpp.o" \
 "CMakeFiles/game_new.dir/wheel.cpp.o"
 
 # External object files for target game_new
 game_new_EXTERNAL_OBJECTS =
 
-game_new: CMakeFiles/game_new.dir/main.cpp.o
 game_new: CMakeFiles/game_new.dir/Automovil.cpp.o
+game_new: CMakeFiles/game_new.dir/main.cpp.o
 game_new: CMakeFiles/game_new.dir/person.cpp.o
 game_new: CMakeFiles/game_new.dir/wheel.cpp.o
 game_new: CMakeFiles/game_new.dir/build.make
-game_new: /home/amaru/DevLibraries/SFML-2.5.1/lib/libsfml-graphics.so.2.5.1
-game_new: /home/amaru/DevLibraries/SFML-2.5.1/lib/libsfml-window.so.2.5.1
-game_new: /home/amaru/DevLibraries/SFML-2.5.1/lib/libsfml-system.so.2.5.1
 game_new: CMakeFiles/game_new.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amaru/CLionProjects/game_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable game_new"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game_new.dir/link.txt --verbose=$(VERBOSE)

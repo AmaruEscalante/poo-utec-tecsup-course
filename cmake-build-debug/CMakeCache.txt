@@ -217,12 +217,6 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
-//The directory containing a CMake configuration file for SFML.
-SFML_DIR:PATH=/home/amaru/DevLibraries/SFML-2.5.1/lib/cmake/SFML
-
-//Path to a file.
-SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND
-
 //Value Computed by CMake
 game_new_BINARY_DIR:STATIC=/home/amaru/CLionProjects/game_new/cmake-build-debug
 

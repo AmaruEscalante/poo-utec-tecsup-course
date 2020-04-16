@@ -101,11 +101,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.14.5/CMakeSystem.cmake"
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
-  "/home/amaru/DevLibraries/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake"
-  "/home/amaru/DevLibraries/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake"
-  "/home/amaru/DevLibraries/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake"
-  "/home/amaru/DevLibraries/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake"
-  "/home/amaru/DevLibraries/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake"
   )
 
 # The corresponding makefile is:
